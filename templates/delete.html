@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Delete File Confirmation</title>
+</head>
+<body>
+<div id="delete-confirm">
+  <p>Do you really want to delete this task?</p>
+  <a href="{% url "home" %}"><button onclick="confirmDelete(true)">Yes</button></a>
+  <button onclick="confirmDelete(false)">No</button>
+
+
+</body>
+</html>
